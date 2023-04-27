@@ -4,9 +4,10 @@
 782 -> 8
 918 -> 1 
 */
+
 // Решение задачи №10
 
-Console.Write("Введите трёхзначное число ->");
+Console.Write("Введите трёхзначное число -> ");
 string number = Console.ReadLine();
 if (number.Length > 2 && number.Length < 4)
 {
