@@ -8,7 +8,7 @@
 // Решение задачи №10
 
 Console.Write("Введите трёхзначное число -> ");
-string number = Console.ReadLine();
+string? number = Console.ReadLine();
 if (number.Length > 2 && number.Length < 4)
 {
     Console.Write(number[1]);
